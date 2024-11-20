@@ -1,9 +1,9 @@
 from openpyxl import Workbook
 from openpyxl.reader.excel import load_workbook
 
-from combined_summaries import create_combined_summaries
-from npl_hw_eol_timeline import create_npl_hw_eol_timeline
-from npl_sw_eol_timeline import create_npl_sw_eol_timeline
+from AdvReporting.combined_summaries import create_combined_summaries
+from AdvReporting.npl_hw_eol_timeline import create_npl_hw_eol_timeline
+from AdvReporting.npl_sw_eol_timeline import create_npl_sw_eol_timeline
 
 file_path = ""
 
