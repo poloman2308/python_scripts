@@ -11,6 +11,7 @@ standart_pattern_fill = PatternFill(
     end_color='00008B',
     fill_type='solid'
 )
+
 thin_border = Border(
     left=Side(style='thin'),
     right=Side(style='thin'),
